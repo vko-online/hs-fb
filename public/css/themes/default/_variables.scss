@@ -1,0 +1,65 @@
+// Brand Colors
+// -------------------------
+
+$brand-primary: #fcdd7c;
+$brand-success: #60bf60;
+$brand-warning: #ff9800;
+$brand-danger: #de4b33;
+$brand-info: #5bc0dd;
+
+$text-color: #176992;
+$btn-primary-color: #176992;
+$btn-default-color: #176992;
+$btn-default-bg: #e5e5e5;
+$link-color: #176992;
+$btn-border-radius-base: 4px;
+// Typography
+// -------------------------
+
+$headings-font-family: "Avenir Next", "Avenir", "Helvetica Neue", san-serif;
+
+// Buttons
+// -------------------------
+
+$btn-primary-border: darken($brand-primary, 3.2%);
+$btn-success-border: darken($brand-success, 3.2%);
+$btn-warning-border: darken($brand-warning, 3.2%);
+$btn-danger-border: darken($brand-danger, 3.2%);
+$btn-info-border: darken($brand-info, 3.2%);
+
+// Forms
+// -------------------------
+
+$input-border-radius: 0;
+$input-border-focus: #2598f9;
+
+// Form states and alerts
+// -------------------------
+
+$state-success-text: #176992;
+$state-success-bg: #fcdd7c;
+$state-success-border: #fcdd7c;
+
+$state-info-text: #3a87ad;
+$state-info-bg: #d9edf7;
+$state-info-border: #98cce7;
+
+$state-warning-text: #bf9853;
+$state-warning-bg: #fdf8e2;
+$state-warning-border: #f2daab;
+
+$state-danger-text: #b94a48;
+$state-danger-bg: #f2dede;
+$state-danger-border: #e0b1b8;
+
+// Navbar
+// -------------------------
+
+$navbar-default-bg: #fcdd7c;
+$navbar-default-link-color: #176992;
+$navbar-default-link-hover-color: darken(#176992, 3.2%);
+$navbar-default-link-active-color: darken(#176992, 6.4%);
+$navbar-default-link-hover-bg: transparent;
+$navbar-default-link-active-bg: transparent;
+$navbar-default-color: #176992;
+$navbar-default-brand-hover-color: darken(#176992, 3.2%);

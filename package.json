@@ -1,0 +1,54 @@
+{
+  "name": "hackathon-starter-only-fb",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vko-online/hs-fb.git"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "watch": "nodemon app.js",
+    "test": "mocha --reporter spec --timeout 5000"
+  },
+  "dependencies": {
+    "async": "^2.0.0",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "connect-mongo": "^1.2.1",
+    "dotenv": "^2.0.0",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.14.0",
+    "express-validator": "^2.20.8",
+    "fbgraph": "^1.2.0",
+    "filesize": "^3.3.0",
+    "geoip-lite": "^1.1.8",
+    "jade": "^1.11.0",
+    "jwt-simple": "^0.5.0",
+    "lodash": "^4.13.1",
+    "lru-cache": "^4.0.1",
+    "lusca": "^1.4.1",
+    "mongoose": "^4.5.4",
+    "morgan": "^1.7.0",
+    "multer": "^1.1.0",
+    "node-sass-middleware": "^0.9.8",
+    "nodemailer": "^2.5.0",
+    "numeral": "^1.5.3",
+    "passport": "0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0",
+    "request": "^2.73.0",
+    "validator": "^5.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.0",
+    "supertest": "^2.0.0"
+  },
+  "engines": {
+    "node": "6.1.0"
+  },
+  "license": "MIT"
+}
